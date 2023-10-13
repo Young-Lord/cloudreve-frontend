@@ -289,7 +289,6 @@ function LoginForm() {
                                         variant={"outlined"}
                                         inputProps={{
                                             id: "email",
-                                            type: "email",
                                             name: "email",
                                         }}
                                         onChange={(e) =>
@@ -353,7 +352,6 @@ function LoginForm() {
                                         label={t("login.email")}
                                         InputProps={{
                                             id: "email",
-                                            type: "email",
                                             name: "email",
                                             startAdornment: !isMobile && (
                                                 <InputAdornment position="start">

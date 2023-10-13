@@ -144,7 +144,6 @@ function Reset() {
                             inputProps={{
                                 name: "email",
                                 id: "email",
-                                type: "email",
                             }}
                             InputProps={{
                                 startAdornment: !isMobile && (

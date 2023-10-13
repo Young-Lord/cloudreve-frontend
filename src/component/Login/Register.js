@@ -181,7 +181,6 @@ function Register() {
                                     label={t("login.email")}
                                     inputProps={{
                                         name: "email",
-                                        type: "email",
                                         id: "email",
                                     }}
                                     InputProps={{

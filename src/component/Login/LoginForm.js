@@ -17,7 +17,7 @@ import API from "../../middleware/Api";
 import Auth from "../../middleware/Auth";
 import { bufferDecode, bufferEncode } from "../../utils/index";
 import {
-    EmailOutlined,
+    PersonOutlined,
     Fingerprint,
     VpnKey,
     VpnKeyOutlined,
@@ -297,7 +297,7 @@ function LoginForm() {
                                         InputProps={{
                                             startAdornment: !isMobile && (
                                                 <InputAdornment position="start">
-                                                    <EmailOutlined />
+                                                    <PersonOutlined />
                                                 </InputAdornment>
                                             ),
                                         }}
@@ -355,7 +355,7 @@ function LoginForm() {
                                             name: "email",
                                             startAdornment: !isMobile && (
                                                 <InputAdornment position="start">
-                                                    <EmailOutlined />
+                                                    <PersonOutlined />
                                                 </InputAdornment>
                                             ),
                                         }}

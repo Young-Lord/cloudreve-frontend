@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import PhotoIcon from "@material-ui/icons/InsertPhoto";
 import GroupIcon from "@material-ui/icons/Group";
 import DateIcon from "@material-ui/icons/DateRange";
-import EmailIcon from "@material-ui/icons/Email";
+import PersonIcon from "@material-ui/icons/Person";
 import HomeIcon from "@material-ui/icons/Home";
 import LinkIcon from "@material-ui/icons/Phonelink";
 import InputIcon from "@material-ui/icons/Input";
@@ -693,7 +693,7 @@ class UserSettingCompoment extends Component {
                             <Divider />
                             <ListItem button>
                                 <ListItemIcon className={classes.iconFix}>
-                                    <EmailIcon />
+                                    <PersonIcon />
                                 </ListItemIcon>
                                 <ListItemText primary={t("login.email")} />
 

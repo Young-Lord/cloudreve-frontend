@@ -9,7 +9,7 @@ import {
 } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import API from "../../middleware/Api";
-import EmailIcon from "@material-ui/icons/EmailOutlined";
+import PersonIcon from "@material-ui/icons/PersonOutlined";
 import { useLocation } from "react-router";
 import { toggleSnackbar } from "../../redux/explorer";
 import { useTranslation } from "react-i18next";
@@ -87,7 +87,7 @@ function Activation() {
             {success && (
                 <Paper className={classes.paper}>
                     <Avatar className={classes.avatar}>
-                        <EmailIcon />
+                        <PersonIcon />
                     </Avatar>
                     <Typography component="h1" variant="h5">
                         {t("login.activateSuccess")}

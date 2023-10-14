@@ -20,7 +20,7 @@ import { toggleSnackbar } from "../../redux/explorer";
 import { useTranslation } from "react-i18next";
 import { Link as RouterLink } from "react-router-dom";
 import InputAdornment from "@material-ui/core/InputAdornment";
-import { EmailOutlined } from "@material-ui/icons";
+import { PersonOutlined } from "@material-ui/icons";
 import { useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 
@@ -148,7 +148,7 @@ function Reset() {
                             InputProps={{
                                 startAdornment: !isMobile && (
                                     <InputAdornment position="start">
-                                        <EmailOutlined />
+                                        <PersonOutlined />
                                     </InputAdornment>
                                 ),
                             }}

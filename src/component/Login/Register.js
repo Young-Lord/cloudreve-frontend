@@ -16,12 +16,12 @@ import {
 } from "@material-ui/core";
 import { Link as RouterLink, useHistory } from "react-router-dom";
 import API from "../../middleware/Api";
-import EmailIcon from "@material-ui/icons/EmailOutlined";
+import PersonIcon from "@material-ui/icons/PersonOutlined";
 import { useCaptcha } from "../../hooks/useCaptcha";
 import { toggleSnackbar } from "../../redux/explorer";
 import { useTranslation } from "react-i18next";
 import InputAdornment from "@material-ui/core/InputAdornment";
-import { EmailOutlined, VpnKeyOutlined } from "@material-ui/icons";
+import { PersonOutlined, VpnKeyOutlined } from "@material-ui/icons";
 import { useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 
@@ -186,7 +186,7 @@ function Register() {
                                     InputProps={{
                                         startAdornment: !isMobile && (
                                             <InputAdornment position="start">
-                                                <EmailOutlined />
+                                                <PersonOutlined />
                                             </InputAdornment>
                                         ),
                                     }}
@@ -275,7 +275,7 @@ function Register() {
                 {emailActive && (
                     <Paper className={classes.paper}>
                         <Avatar className={classes.avatarSuccess}>
-                            <EmailIcon />
+                            <PersonIcon />
                         </Avatar>
                         <Typography component="h1" variant="h5">
                             {t("login.activateTitle")}
